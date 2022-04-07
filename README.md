@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+  I’m currently restarting my development career as a Frontend React developer. 
+  Check my profiles on:
+  nkedin.com/in/yasser-muayed-5b79a3a3/
+  https://www.behance.net/yassermuayed
+  https://yasser.hashnode.dev/
+  
+  --------------------------------------
+  More is comming soon
+
 <!--
 **yassermuayed/yassermuayed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
