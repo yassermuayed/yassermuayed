@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **game engines and game development**
 
-- 📝 I regularly write articles on [medium.com/@yassrmuayed](medium.com/@yassrmuayed)
+- 📝 I regularly write articles on [what I learnd](https://yasser.hashnode.dev/)
 
 - 💬 Ask me about **frontend development and design, and react.**
 
