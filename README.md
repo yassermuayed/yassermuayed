@@ -38,3 +38,24 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yassermuayed&show_icons=true&locale=en" alt="yassermuayed" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yassermuayed&" alt="yassermuayed" /></p>
+
+# Blog posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+Create a folder named .github and create workflows folder inside it if it doesn't exist.
+Create a new file named blog-post-workflow.yml with the following contents inside the workflows folder:
+name: Latest blog post workflow
+on:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: 'https://dev.to/feed/yassermuayed'
